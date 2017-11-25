@@ -1,0 +1,196 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5083ad"
+    tools:context="MainActivity">
+    <!--Dividers-->
+    <View
+        android:layout_width="303dp"
+        android:layout_height="1dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/ll2"
+        android:layout_marginTop="-10dp"
+        android:background="#14ffffff" />
+
+    <View
+        android:layout_width="303dp"
+        android:layout_height="1dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/ll3"
+        android:layout_marginTop="-10dp"
+        android:background="#14ffffff" />
+
+    <View
+        android:layout_width="303dp"
+        android:layout_height="1dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/ll4"
+        android:layout_marginTop="-10dp"
+        android:background="#14ffffff" />
+
+    <View
+        android:layout_width="303dp"
+        android:layout_height="1dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/ll5"
+        android:layout_marginTop="-10dp"
+        android:background="#14ffffff" />
+
+    <!--Image-->
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/code" />
+
+    <!--BottomBar-->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:background="#578fbe" />
+
+    <!--Logo-->
+
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/logo"
+        android:background="#578fbe"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/udacity_logo" />
+    </LinearLayout>
+
+    <!--Address Linear-->
+
+    <LinearLayout
+        android:id="@+id/ll2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll1"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="40dp"
+        android:clickable="true"
+        android:onClick="map"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="16dp"
+            android:src="@drawable/map_blue" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="16dp"
+            android:fontFamily="@font/elido_regular"
+            android:paddingTop="4dp"
+            android:text="@string/address"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+
+    <!--Website linear-->
+
+    <LinearLayout
+        android:id="@+id/ll3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll2"
+        android:layout_marginBottom="20dp"
+        android:clickable="true"
+        android:onClick="web">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="16dp"
+            android:src="@drawable/web_blue" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="16dp"
+            android:fontFamily="@font/elido_regular"
+            android:paddingTop="4dp"
+            android:text="@string/web"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+
+            />
+    </LinearLayout>
+    <!--Email Linear-->
+
+    <LinearLayout
+        android:id="@+id/ll4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll3"
+        android:layout_marginBottom="20dp"
+        android:clickable="true"
+        android:onClick="email">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="16dp"
+            android:src="@drawable/email_blue" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="16dp"
+            android:fontFamily="@font/elido_regular"
+            android:paddingTop="4dp"
+            android:text="@string/mail"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <!--Phone Linear-->
+
+    <LinearLayout
+        android:id="@+id/ll5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll4"
+        android:layout_marginBottom="20dp"
+        android:clickable="true"
+        android:onClick="phone">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="16dp"
+            android:src="@drawable/phone_blue" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="16dp"
+            android:fontFamily="@font/elido_regular"
+            android:paddingTop="4dp"
+            android:text="@string/tel"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+    </LinearLayout>
+</RelativeLayout>
+
+
