@@ -10,7 +10,7 @@
         android:layout_height="1dp"
         android:layout_alignParentRight="true"
         android:layout_below="@id/ll2"
-        android:layout_marginTop="-10dp"
+        android:layout_marginTop="@dimen/dividerMargin"
         android:background="#14ffffff" />
 
     <View
@@ -18,7 +18,7 @@
         android:layout_height="1dp"
         android:layout_alignParentRight="true"
         android:layout_below="@id/ll3"
-        android:layout_marginTop="-10dp"
+        android:layout_marginTop="@dimen/dividerMargin"
         android:background="#14ffffff" />
 
     <View
@@ -26,7 +26,7 @@
         android:layout_height="1dp"
         android:layout_alignParentRight="true"
         android:layout_below="@id/ll4"
-        android:layout_marginTop="-10dp"
+        android:layout_marginTop="@dimen/dividerMargin"
         android:background="#14ffffff" />
 
     <View
@@ -34,7 +34,7 @@
         android:layout_height="1dp"
         android:layout_alignParentRight="true"
         android:layout_below="@id/ll5"
-        android:layout_marginTop="-10dp"
+        android:layout_marginTop="@dimen/dividerMargin"
         android:background="#14ffffff" />
 
     <!--Image-->
@@ -81,8 +81,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/ll1"
-        android:layout_marginBottom="20dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginBottom="@dimen/mediumMargin"
+        android:layout_marginTop="@dimen/bigMargin"
         android:clickable="true"
         android:onClick="map"
         android:orientation="horizontal">
@@ -90,18 +90,18 @@
         <ImageView
             android:layout_width="24dp"
             android:layout_height="24dp"
-            android:layout_marginLeft="16dp"
+            android:layout_marginLeft="@dimen/smallMargin"
             android:src="@drawable/map_blue" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:layout_marginLeft="16dp"
+            android:layout_marginLeft="@dimen/smallMargin"
             android:fontFamily="@font/elido_regular"
-            android:paddingTop="4dp"
+            android:paddingTop="@dimen/centeredString"
             android:text="@string/address"
             android:textColor="@android:color/white"
-            android:textSize="16sp" />
+            android:textSize="@dimen/textsize" />
 
 
     </LinearLayout>
@@ -113,25 +113,25 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/ll2"
-        android:layout_marginBottom="20dp"
+        android:layout_marginBottom="@dimen/mediumMargin"
         android:clickable="true"
         android:onClick="web">
 
         <ImageView
             android:layout_width="24dp"
             android:layout_height="24dp"
-            android:layout_marginLeft="16dp"
+            android:layout_marginLeft="@dimen/smallMargin"
             android:src="@drawable/web_blue" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:layout_marginLeft="16dp"
+            android:layout_marginLeft="@dimen/smallMargin"
             android:fontFamily="@font/elido_regular"
-            android:paddingTop="4dp"
+            android:paddingTop="@dimen/centeredString"
             android:text="@string/web"
             android:textColor="@android:color/white"
-            android:textSize="16sp"
+            android:textSize="@dimen/textsize"
 
             />
     </LinearLayout>
@@ -142,25 +142,25 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/ll3"
-        android:layout_marginBottom="20dp"
+        android:layout_marginBottom="@dimen/mediumMargin"
         android:clickable="true"
         android:onClick="email">
 
         <ImageView
             android:layout_width="24dp"
             android:layout_height="24dp"
-            android:layout_marginLeft="16dp"
+            android:layout_marginLeft="@dimen/smallMargin"
             android:src="@drawable/email_blue" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:layout_marginLeft="16dp"
+            android:layout_marginLeft="@dimen/smallMargin"
             android:fontFamily="@font/elido_regular"
-            android:paddingTop="4dp"
+            android:paddingTop="@dimen/centeredString"
             android:text="@string/mail"
             android:textColor="@android:color/white"
-            android:textSize="16sp" />
+            android:textSize="@dimen/textsize" />
 
     </LinearLayout>
 
@@ -171,25 +171,25 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/ll4"
-        android:layout_marginBottom="20dp"
+        android:layout_marginBottom="@dimen/mediumMargin"
         android:clickable="true"
         android:onClick="phone">
 
         <ImageView
             android:layout_width="24dp"
             android:layout_height="24dp"
-            android:layout_marginLeft="16dp"
+            android:layout_marginLeft="@dimen/smallMargin"
             android:src="@drawable/phone_blue" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:layout_marginLeft="16dp"
+            android:layout_marginLeft="@dimen/smallMargin"
             android:fontFamily="@font/elido_regular"
-            android:paddingTop="4dp"
+            android:paddingTop="@dimen/centeredString"
             android:text="@string/tel"
             android:textColor="@android:color/white"
-            android:textSize="16sp" />
+            android:textSize="@dimen/textsize" />
     </LinearLayout>
 </RelativeLayout>
 
