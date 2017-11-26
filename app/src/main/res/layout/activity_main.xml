@@ -6,35 +6,39 @@
     tools:context="MainActivity">
     <!--Dividers-->
     <View
-        android:layout_width="303dp"
+        android:layout_width="match_parent"
         android:layout_height="1dp"
         android:layout_alignParentRight="true"
         android:layout_below="@id/ll2"
-        android:layout_marginTop="@dimen/dividerMargin"
+        android:layout_marginLeft="@dimen/dividerMarginLeft"
+        android:layout_marginTop="@dimen/dividerMarginTop"
         android:background="#14ffffff" />
 
     <View
-        android:layout_width="303dp"
+        android:layout_width="match_parent"
         android:layout_height="1dp"
         android:layout_alignParentRight="true"
         android:layout_below="@id/ll3"
-        android:layout_marginTop="@dimen/dividerMargin"
+        android:layout_marginLeft="@dimen/dividerMarginLeft"
+        android:layout_marginTop="@dimen/dividerMarginTop"
         android:background="#14ffffff" />
 
     <View
-        android:layout_width="303dp"
+        android:layout_width="match_parent"
         android:layout_height="1dp"
         android:layout_alignParentRight="true"
         android:layout_below="@id/ll4"
-        android:layout_marginTop="@dimen/dividerMargin"
+        android:layout_marginLeft="@dimen/dividerMarginLeft"
+        android:layout_marginTop="@dimen/dividerMarginTop"
         android:background="#14ffffff" />
 
     <View
-        android:layout_width="303dp"
+        android:layout_width="match_parent"
         android:layout_height="1dp"
         android:layout_alignParentRight="true"
         android:layout_below="@id/ll5"
-        android:layout_marginTop="@dimen/dividerMargin"
+        android:layout_marginLeft="@dimen/dividerMarginLeft"
+        android:layout_marginTop="@dimen/dividerMarginTop"
         android:background="#14ffffff" />
 
     <!--Image-->
